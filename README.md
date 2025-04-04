@@ -23,10 +23,12 @@ In this implementation, conditional variational autoencoder is used to generate 
 ## Results
 
 Results on MNIST dataset, generating 50 images, 5 from each digit:
-![results](https://github.com/user-attachments/assets/5c1a0ca6-4297-4b8d-a7ea-7f681e301589)
+
+![MNIST results](results/results-MNIST.png)
 
 Results on FashionMNIST dataset, generating 50 images, 5 from each cloth category:
-![results-FashionMNIST](https://github.com/user-attachments/assets/d9574e81-900f-4494-bc45-22c09b452d3e)
+
+![FasionMNIST results](results/results-FashionMNIST.png)
 
 ## License
 
