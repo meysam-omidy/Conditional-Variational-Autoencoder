@@ -18,13 +18,15 @@ This repository contains the implementation of a Conditional Variational Autoenc
 
 ## About This Implemention
 
-In this implementation, conditional variational autoencoder is used to generate images of MNIST dataset containing images of handwritten digits. Model succeeds in generating images with good overall structure, but it also generates blurry images often happens with this family of models comparing to GANs and Diffusion models. Generated images are sometimes not well structured, which is expected since generation is based on gaussian noise, but it may be possible to alleviate this issue in the future implementations.
+In this implementation, conditional variational autoencoder is used to generate images of MNIST dataset containing images of handwritten digits, and FashionMNIST dataset containing images of 10 different cloth categories. Model succeeds in generating images with good overall structure, but it also generates blurry images which often happens with this family of models comparing to GANs and Diffusion models. Generated images are sometimes not well structured, which is expected since generation is based on gaussian noise, but it may be possible to alleviate this issue in the future implementations.
 
 ## Results
 
-Results on MNIST datasets, generating 50 images, 5 from each digit:
+Results on MNIST dataset, generating 50 images, 5 from each digit:
 ![results](https://github.com/user-attachments/assets/5c1a0ca6-4297-4b8d-a7ea-7f681e301589)
 
+Results on FashionMNIST dataset, generating 50 images, 5 from each cloth category:
+![results-FashionMNIST](https://github.com/user-attachments/assets/d9574e81-900f-4494-bc45-22c09b452d3e)
 
 ## License
 
